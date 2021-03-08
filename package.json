@@ -5,21 +5,33 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "serve-rpdt": "vue-cli-service serve --mode localService",
+    "build-uat": "vue-cli-service build --morden --mode uat "
   },
   "dependencies": {
+    "@babel/polyfill": "^7.12.1",
     "core-js": "^3.6.5",
+    "element-ui": "^2.15.0",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
     "vuex": "^3.4.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.13.1",
+    "@babel/plugin-transform-runtime": "^7.13.7",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.13.5",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-plugin-router": "~4.5.0",
     "@vue/cli-plugin-vuex": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "babel-eslint": "^10.1.0",
+    "babel-plugin-component": "^1.1.1",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "babel-polyfill": "^6.26.0",
+    "es6-promise": "^4.2.8",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
     "sass": "^1.26.5",

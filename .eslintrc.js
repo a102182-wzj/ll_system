@@ -7,6 +7,9 @@ module.exports = {
     'plugin:vue/essential',
     'eslint:recommended'
   ],
+  globals: {
+    "axios": true,
+  },
   parserOptions: {
     parser: 'babel-eslint'
   },
